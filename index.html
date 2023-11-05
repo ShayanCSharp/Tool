@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense tracker</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/Madeleine.png" type="image/x-icon">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <a href="https://api.whatsapp.com/send?phone=0796891193" target="_blank" class="whatsapp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>How can i help you?</span>
+    </a>
+
+
+    <nav>
+        <a href="/tool.html" id="logo">
+            <img src="/img/logo.png" alt="">
+        </a>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <a href="#hero" class="up"><i class="fa-solid fa-arrow-up"></i></a>
+
+
+    <!-- Main section  -->
+
+    <main>
+
+        <!-- Hero section  -->
+        <div id="hero">
+            <div class="hero-des">
+                <h1>Really simple cash tracker lists you can see</h1>
+                <a href="#tool">Create a cash tracker List</a>
+                <span>No sign up required</span>
+            </div>
+            <img src="/img/hero.jpg" alt="">
+        </div>
+
+        <div id="tool">
+            <div class="enter">
+                <h2>Enter Name & Price</h2>
+                <div class="input">
+                    <div class="task">
+                        <label for="name">Name</label>
+                        <input type="text" id="Name" placeholder="Enter name">
+                    </div>
+                    <div class="task">
+                        <label for="price">Price</label>
+                        <input type="text" id="price" placeholder="Enter Price">
+                    </div>
+                    <input type="button" value="Add" id="add">
+                </div>
+            </div>
+            <div class="task-list">
+                <ul>
+                </ul>
+            </div>
+        </div>
+
+        <div class="about">
+            <h4>***&nbsp;&nbsp; <span>Clients Testimonal</span> &nbsp;&nbsp;***</h4>
+            <h2>Clients Feedbacks</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide testi" style="display: flex;">
+                        <div class="tes-img">
+                            <img src="/img/tes1.jpg" alt="">
+                        </div>
+
+                        <div class="tes-des">
+                            <p>" Money Saver transforms budgeting. Easy input for products and prices, a must-have for
+                                effective finance management. "</p>
+                            <div class="tes-name">Sarah J.</div>
+                            <div class="profession">Junior Manager</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testi" style="display: flex;">
+                        <div class="tes-img">
+                            <img src="/img/tes2.jpg" alt="">
+                        </div>
+
+                        <div class="tes-des">
+                            <p>" I've tried various budgeting apps, but Money Saver stands out. It's intuitive and helps
+                                track expenses easily. A must-try for savers! "</p>
+                            <div class="tes-name">David M.</div>
+                            <div class="profession">Business Owner</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testi" style="display: flex;">
+                        <div class="tes-img">
+                            <img src="/img/tes3.png" alt="">
+                        </div>
+
+                        <div class="tes-des">
+                            <p>" I adore Money Saver for curbing impulse buys. Enter product, price, stay accountable.
+                                Fantastic tool! "</p>
+                            <div class="tes-name">Mike L.</div>
+                            <div class="profession">Medial Officers</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <hr>
+    <footer>
+        <img src="/img/logo.png" alt="">
+        <div class="f-links">
+            <h5>Send mail:</h5>
+            <a href="mailto:@thecashsavers.gmail.com">thecashsavers.gmail.com</a>
+        </div>
+
+    </footer>
+
+    <script src="/js/tool.js"></script>
+</body>
+
+</html>
